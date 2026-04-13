@@ -1,0 +1,97 @@
+Soham Walimbe 
+Contact Details: 
+Phone Number: +91 7083541780 
+E-mail ID: sohamwalimbe@gmail.com 
+Objective:  
+Location: Pune 
+LinkedIn: www.linkedin.com/in/sohamwalimbe 
+Github: https://github.com/BlazeFloki 
+An electronics and communication engineering student specializing in AI and machine learning. 
+Experienced in developing full-stack AI/ML solutions, computer vision systems, and hardware-software 
+integrations, specialized in deploying GenAI and Computer Vision solutions at the intersection of 
+hardware and software. 
+Educational Qualifications: 
+• Bachelor of Engineering (Electronics and Communications: AI/ML) – MIT World Peace 
+University, Pune – 2022 to 2026 (Expected) 
+CGPA- 7.09 
+• HSC - Vishwakarma College of Arts Commerce and Science, Pune – 2020 to 2022 
+68.67% 
+• CBSE - Sinhgad Spring Dale Public School, Pune– 2010 to 2020  
+84% 
+Internship Experience: 
+AI ML Project Intern- Tech Mahindra Ltd., Hinjewadi Phase 3, Pune | 4/2025 to 12/2025 
+• AI and Full stack development intern under the Makers Lab division of Tech Mahindra Ltd. 
+• Researched and developed full-stack software using GenAI and Agentic RAG frameworks 
+• Implemented webhooks and APIs using Django, MongoDB and SQL for 3+ client-based 
+applications 
+• Led development on Computer Vision projects, utilizing image processing to automate routine 
+client tasks, reducing manual effort by 80% 
+• Streamlined the transition from R&D prototypes to production environments using Git and CI/CD 
+workflows 
+• Designed and deployed modular AI task orchestration pipelines to chain LLM calls, retrieval, and 
+generation processes for enhanced system performance. 
+• Optimized development workflows by integrating AI-assisted code reviewers and automated 
+notebook environments, resulting in a 20% increase in sprint delivery efficiency. 
+• Participated in end-to-end testing and debugging of AI-powered applications, resolving runtime 
+errors to optimize system stability before production deployment. 
+• Authored technical documentation for AI-powered workflows, including prompt engineering 
+strategies and orchestration logic to facilitate knowledge transfer and future scalability. 
+• Facilitated cross-functional collaboration between design and engineering teams to integrate 
+LLM-based features into client-facing applications, ensuring alignment with technical 
+requirements. 
+Data Annotator Intern – Wordlab Multilingual Translation Enterprises, Pune | 10/2022 to 07/2023 
+• Automated data extraction pipelines by developing Python scripts to process 15+ daily sources. 
+reducing manual workload by 90% 
+• Optimized Google Bard AI performance through literature reviews and response refinement 
+(RLHF) 
+• Conducted rigorous quality control on annotated datasets to ensure high-fidelity model training 
+in production 
+Projects: 
+IoTide- Underwater Image Recognition and Marine Life Conservation – Project 
+• IEEE Publication link: https://ieeexplore.ieee.org/document/11278148 
+• Developed an underwater marine life detection system using the YOLOv8 model with pretrained 
+PyTorch datasets. 
+• Implemented AI based fish recognition and ML based data analytics for fisheries and pond 
+cultures on a live dashboard 
+• Integrated ESP32-CAM to capture underwater images and stream real-time data. 
+• Integrated multiple sensors together, like TDS sensor, water pH sensor, etc. to monitor water 
+quality 
+• Designed a system for underwater object detection and awareness toward marine conservation. 
+AI Ops platform- 
+• Built a real-time AI-powered AIOps platform with anomaly detection (Isolation Forest) using 
+scikit-learn 
+• Engineered automated root cause analysis + LLM-based incident explanation system using 
+Ollama (Gemma 3) 
+• Created scalable backend architecture with FastAPI for real-time telemetry ingestion and 
+processing 
+• Applied Kafka-based streaming architecture using Apache Kafka for decoupled, high-throughput 
+data pipelines 
+• Developed interactive real-time monitoring dashboard using React with live anomaly tracking and 
+incident visualization 
+PDF Detail extraction Python Library- 
+• Developed a Python-based library for structured data extraction from PDFs, including text, tables, 
+and images. 
+• Implemented table detection and extraction using hybrid rule based and library-based 
+approaches like PyMuPDF, Camelot, PDFParser 
+• Converted image-based graphs into digital plots for analytical processing 
+• Integrated AI based post processing to generate JSON formatted structured outputs 
+LLM-Assisted COREP Reporting Prototype-  
+1. Ingest Rules: Load regulatory text into ChromaDB using LLM embeddings 
+2. Retrieve: Query the vector store to find relevant rules based on a question 
+3. Generate: Pass rules to a local LLM (Ollama) along with a reporting scenario 
+4. Output: Structured JSON aligned to the COREP schema with regulatory justifications 
+Technical Skills: 
+• GenAI & Agentic AI: Agentic RAG, Prompt Engineering (few-shot, system prompts), LLM APIs 
+(Gemini API), LangChain workflows, AI task orchestration, LLM evaluation & optimization 
+• Machine Learning: ML algorithms, DNNs, Transformers basics, YOLO, PyTorch, Image Processing, 
+Pattern Recognition 
+• Software & Backend: Python (OOP), Flask/FastAPI, Django, REST APIs, Webhooks, MongoDB, SQL 
+• Data & Systems: Pandas, NumPy, Data pipelines, API & DB integration 
+• Tools & Workflow: Git, CI/CD basics, n8n automation, Cursor IDE, Tableau, PowerBI 
+Certifications: 
+• Introduction to LLM, Swayam NPTEL 
+• HACK MIT WPU 2025 Runner Ups for Ideathon and Workathon Project Iotide, 28 March 2025 
+• National Academic Immersion Program in Full Stack Development, IIT Jodhpur,  
+24 June 2024 to 3 July 2024 
+• MathWorks Matlab Onramp Course and Signal Processing Onramp Course 28 November 2023 
+Languages Known: English, Hindi, Marathi 

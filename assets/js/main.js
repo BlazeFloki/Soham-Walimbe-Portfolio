@@ -61,7 +61,7 @@ sections.forEach(s => sectionObserver.observe(s));
 
 // ---------- Smooth reveal on scroll ----------
 const revealEls = document.querySelectorAll(
-  '.timeline-item, .project-card, .skill-category, .stat-card, .edu-card, .contact-card, .cert-list li'
+  '.timeline-item, .project-card, .skill-category, .stat-card, .edu-card, .contact-card, .cert-list li, .course-card, .cert-item'
 );
 
 const revealObserver = new IntersectionObserver(

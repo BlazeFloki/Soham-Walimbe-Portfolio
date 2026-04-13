@@ -11,17 +11,40 @@ if (hamburger && navLinks) {
     navLinks.classList.toggle('open');
   });
 
-  // Close menu on link click (mobile)
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => navLinks.classList.remove('open'));
   });
 }
 
+// ---------- Nav logo: SW → Photo when hero photo leaves viewport ----------
+const navbar       = document.getElementById('navbar');
+const heroPhotoEl  = document.querySelector('.hero-photo-ring');
+
+if (navbar && heroPhotoEl) {
+  const logoObserver = new IntersectionObserver(
+    ([entry]) => {
+      // When the hero photo is NOT visible, switch to photo mode
+      if (!entry.isIntersecting) {
+        navbar.classList.add('photo-active');
+      } else {
+        navbar.classList.remove('photo-active');
+      }
+    },
+    {
+      // Fire when the element is fully scrolled out at the top
+      threshold: 0,
+      rootMargin: '-64px 0px 0px 0px' // account for navbar height
+    }
+  );
+
+  logoObserver.observe(heroPhotoEl);
+}
+
 // ---------- Active nav link on scroll ----------
-const sections = document.querySelectorAll('section[id]');
+const sections    = document.querySelectorAll('section[id]');
 const allNavLinks = document.querySelectorAll('.nav-links a');
 
-const observer = new IntersectionObserver(
+const sectionObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -34,7 +57,7 @@ const observer = new IntersectionObserver(
   { rootMargin: '-40% 0px -55% 0px' }
 );
 
-sections.forEach(s => observer.observe(s));
+sections.forEach(s => sectionObserver.observe(s));
 
 // ---------- Smooth reveal on scroll ----------
 const revealEls = document.querySelectorAll(
@@ -58,7 +81,7 @@ revealEls.forEach(el => {
   revealObserver.observe(el);
 });
 
-// Add CSS for the reveal animations
+// ---------- Inject shared animation styles ----------
 const style = document.createElement('style');
 style.textContent = `
   .hidden {
@@ -75,3 +98,4 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+

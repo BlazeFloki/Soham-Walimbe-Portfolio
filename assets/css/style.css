@@ -103,10 +103,79 @@ section {
 }
 
 .nav-logo {
-  font-size: 1.25rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+/* "SW" initials layer */
+.nav-logo-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--clr-accent);
   letter-spacing: 0.05em;
+  /* start visible */
+  opacity: 1;
+  transform: scale(1);
+  transition:
+    opacity 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Photo layer */
+.nav-logo-photo-wrap {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--clr-accent) 0%, #1f3a5a 60%, var(--clr-accent) 100%);
+  /* start hidden */
+  opacity: 0;
+  transform: scale(0.3) rotate(-90deg);
+  transition:
+    opacity 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); /* springy overshoot */
+}
+
+.nav-logo-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border: 2px solid var(--clr-bg);
+}
+
+/* ---- Active state: photo visible, text hidden ---- */
+#navbar.photo-active .nav-logo-text {
+  opacity: 0;
+  transform: scale(0.4) rotate(45deg);
+}
+
+#navbar.photo-active .nav-logo-photo-wrap {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+/* Subtle glow pulse on the nav photo once visible */
+#navbar.photo-active .nav-logo-photo-wrap {
+  animation: nav-photo-glow 3s ease-in-out infinite;
+}
+
+@keyframes nav-photo-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(88, 166, 255, 0.0); }
+  50%       { box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.35); }
 }
 
 .nav-links {

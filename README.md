@@ -25,25 +25,6 @@ Portfolio/
 └── README.md
 ```
 
-## 🚀 Hosting on GitHub Pages (Free)
-
-1. Create a new public repository on GitHub (e.g. `portfolio`)
-2. Push this directory to it (see commands below)
-3. Go to **Repository → Settings → Pages**
-4. Set **Source** to `main` branch, `/ (root)` folder
-5. Save — your site will be live at `https://blazefloki.github.io/portfolio`
-
-### Git Commands
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio commit"
-git branch -M main
-git remote add origin https://github.com/BlazeFloki/portfolio.git
-git push -u origin main
-```
-
 ---
 
 ## ✨ Features
@@ -56,6 +37,3 @@ git push -u origin main
 
 ---
 
-## 📄 License
-
-MIT

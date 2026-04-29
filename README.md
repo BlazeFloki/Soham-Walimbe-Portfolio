@@ -4,7 +4,7 @@ Personal portfolio website hosted on GitHub Pages. Built with vanilla HTML, CSS,
 
 ## 🔗 Live Site
 
-**[https://blazefloki.github.io/portfolio](https://blazefloki.github.io/portfolio)**
+**[https://blazefloki.github.io/Soham-Walimbe-Portfolio](https://blazefloki.github.io/Soham-Walimbe-Portfolio)**
 
 > Replace `portfolio` with whatever you name the repository on GitHub.
 
